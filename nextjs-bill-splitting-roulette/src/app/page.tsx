@@ -73,7 +73,7 @@ const Home: React.FC = () => { // AppをHomeにリネーム
     setShowResults(false);
 
     setTimeout(() => {
-      let remainingParticipants = [...participants];
+      const remainingParticipants = [...participants]; // 'let' から 'const' に変更
       
       const cleanupIdx = Math.floor(Math.random() * remainingParticipants.length);
       const cleanup = remainingParticipants.splice(cleanupIdx, 1)[0];

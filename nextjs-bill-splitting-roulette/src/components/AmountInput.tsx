@@ -1,7 +1,7 @@
 
 "use client"; // この行を追加
 
-import React, { useState, useRef, useEffect } from 'react'; // useState, useRef をインポート
+import React, { useState, useRef } from 'react'; // useEffect を削除
 import { CurrencyYenIcon } from './icons/CurrencyYenIcon';
 
 interface AmountInputProps {
