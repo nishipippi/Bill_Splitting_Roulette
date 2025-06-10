@@ -1,0 +1,5 @@
+{
+  "name": "割り勘ルーレット (Bill Splitting Roulette)",
+  "description": "参加者の名前と金額を入力してルーレットを回し、役割分担と割り勘金額を決定するウェブアプリケーションです。後片付け役1名と洗い物役1名が選ばれ、残りの参加者で費用を分担します。",
+  "requestFramePermissions": []
+}
